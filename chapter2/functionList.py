@@ -33,3 +33,29 @@ print(numbers)
 
 numbers[1:4] = []
 print(numbers)
+
+lst = [1,2,3]
+lst.append(4)
+print(lst)
+
+arrayCount = ['to','be','or','not','to','be']
+print(arrayCount.count('to'))
+
+x = [[1,2], 1, 1, [2, 1, [1,2]]]
+print(x.count(1))
+print(x.count([1,2]))
+
+a = [1,2,3]
+b = [4,5,6]
+a.extend(b)
+print(a)
+
+a = [1,2,3]
+b = [4,5,6]
+print(a+b)
+print(a)
+
+a = [1,2,3]
+b = [4,5,6]
+a[len(a):] =b
+print(a)
