@@ -1,0 +1,2 @@
+# corePython
+Python基础
