@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="315680e2-1290-41e3-a76e-9633532ba204" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/chapter2/functionSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/functionSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter3/characterSingleFormat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter3/characterSlice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter3/characterTemplate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter3/characterWidthPrecision.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter3/characterformat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,16 +22,21 @@
     <SUITE FILE_PATH="coverage/corePython$functionRemove.coverage" NAME="functionRemove Coverage Results" MODIFIED="1554188487117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
     <SUITE FILE_PATH="coverage/corePython$printDomain.coverage" NAME="printDomain Coverage Results" MODIFIED="1553773665151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
     <SUITE FILE_PATH="coverage/corePython$function.coverage" NAME="function Coverage Results" MODIFIED="1554116399733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
+    <SUITE FILE_PATH="coverage/corePython$characterTemplate.coverage" NAME="characterTemplate Coverage Results" MODIFIED="1554291163833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter3" />
     <SUITE FILE_PATH="coverage/corePython$functionInsert.coverage" NAME="functionInsert Coverage Results" MODIFIED="1554186548226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
     <SUITE FILE_PATH="coverage/corePython$functionSort.coverage" NAME="functionSort Coverage Results" MODIFIED="1554276120289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
     <SUITE FILE_PATH="coverage/corePython$tag.coverage" NAME="tag Coverage Results" MODIFIED="1554104895123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
+    <SUITE FILE_PATH="coverage/corePython$characterSlice.coverage" NAME="characterSlice Coverage Results" MODIFIED="1554278403451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter3" />
     <SUITE FILE_PATH="coverage/corePython$sequenceSentence.coverage" NAME="sequenceSentence Coverage Results" MODIFIED="1554106430296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
+    <SUITE FILE_PATH="coverage/corePython$characterformat.coverage" NAME="characterformat Coverage Results" MODIFIED="1554281289102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter3" />
     <SUITE FILE_PATH="coverage/corePython$variable.coverage" NAME="variable Coverage Results" MODIFIED="1553686207665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/corePython$characterSingleFormat.coverage" NAME="characterSingleFormat Coverage Results" MODIFIED="1554291954085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter3" />
     <SUITE FILE_PATH="coverage/corePython$functionList.coverage" NAME="functionList Coverage Results" MODIFIED="1554174798277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
     <SUITE FILE_PATH="coverage/corePython$MembershipList.coverage" NAME="MembershipList Coverage Results" MODIFIED="1554115803853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
     <SUITE FILE_PATH="coverage/corePython$indexSec.coverage" NAME="indexSec Coverage Results" MODIFIED="1553569688886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/corePython$index__1_.coverage" NAME="index (1) Coverage Results" MODIFIED="1553762814220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
     <SUITE FILE_PATH="coverage/corePython$Membership.coverage" NAME="Membership Coverage Results" MODIFIED="1554108293019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
+    <SUITE FILE_PATH="coverage/corePython$characterWidthPrecision.coverage" NAME="characterWidthPrecision Coverage Results" MODIFIED="1554293113712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter3" />
     <SUITE FILE_PATH="coverage/corePython$functionReverse.coverage" NAME="functionReverse Coverage Results" MODIFIED="1554189572726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
   </component>
   <component name="DockManager">
@@ -66,7 +76,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="6" />
-          <entry key="py" value="22" />
+          <entry key="py" value="27" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
@@ -74,19 +84,19 @@
         <counts>
           <entry key="IPNB" value="6" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="22" />
+          <entry key="Python" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="py" value="7398" />
+          <entry key="py" value="8572" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="7398" />
+          <entry key="Python" value="8572" />
         </counts>
       </usages-collector>
     </session>
@@ -94,62 +104,57 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter2/functionReverse.py">
+        <entry file="file://$PROJECT_DIR$/chapter2/functionSort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="422">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter3/characterSlice.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter3/characterformat.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter3/characterTemplate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter3/characterSingleFormat.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter2/functionSort.py">
+        <entry file="file://$PROJECT_DIR$/chapter3/characterWidthPrecision.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="360">
+              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../python_basic/python_basic_3.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../python_basic/python_basic_4.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../python_basic/python_basic_5.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../python_basic/test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../python_basic/test_write.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -185,6 +190,11 @@
         <option value="$PROJECT_DIR$/chapter2/functionReverse.py" />
         <option value="$PROJECT_DIR$/../python_basic/python_basic.ipynb" />
         <option value="$PROJECT_DIR$/chapter2/functionSort.py" />
+        <option value="$PROJECT_DIR$/chapter3/characterSlice.py" />
+        <option value="$PROJECT_DIR$/chapter3/characterformat.py" />
+        <option value="$PROJECT_DIR$/chapter3/characterTemplate.py" />
+        <option value="$PROJECT_DIR$/chapter3/characterSingleFormat.py" />
+        <option value="$PROJECT_DIR$/chapter3/characterWidthPrecision.py" />
       </list>
     </option>
   </component>
@@ -216,7 +226,7 @@
             <path>
               <item name="corePython" type="b2602c69:ProjectViewProjectNode" />
               <item name="corePython" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,8 +257,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.functionSort">
-    <configuration name="functionInsert" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.characterWidthPrecision">
+    <configuration name="characterSingleFormat" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="corePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,12 +266,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/functionInsert.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/characterSingleFormat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,7 +280,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="functionRemove" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="characterSlice" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="corePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -278,12 +288,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/functionRemove.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/characterSlice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,7 +302,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="functionReverse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="characterTemplate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="corePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -300,12 +310,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/functionReverse.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/characterTemplate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -314,7 +324,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="functionSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="characterWidthPrecision" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="corePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -322,12 +332,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/functionSort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/characterWidthPrecision.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -336,7 +346,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="index" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="characterformat" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="corePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -344,12 +354,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/index.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/characterformat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -359,19 +369,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.index" />
-      <item itemvalue="Python.functionInsert" />
-      <item itemvalue="Python.functionRemove" />
-      <item itemvalue="Python.functionReverse" />
-      <item itemvalue="Python.functionSort" />
+      <item itemvalue="Python.characterSlice" />
+      <item itemvalue="Python.characterformat" />
+      <item itemvalue="Python.characterTemplate" />
+      <item itemvalue="Python.characterSingleFormat" />
+      <item itemvalue="Python.characterWidthPrecision" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.functionSort" />
-        <item itemvalue="Python.functionReverse" />
-        <item itemvalue="Python.functionRemove" />
-        <item itemvalue="Python.functionInsert" />
-        <item itemvalue="Python.index" />
+        <item itemvalue="Python.characterWidthPrecision" />
+        <item itemvalue="Python.characterSingleFormat" />
+        <item itemvalue="Python.characterTemplate" />
+        <item itemvalue="Python.characterformat" />
+        <item itemvalue="Python.characterSlice" />
       </list>
     </recent_temporary>
   </component>
@@ -588,8 +598,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter2/functionSort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="422">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/characterSlice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/characterformat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/characterTemplate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/characterSingleFormat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/characterWidthPrecision.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
         </state>
       </provider>
     </entry>
