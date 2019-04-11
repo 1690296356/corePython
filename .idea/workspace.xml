@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="315680e2-1290-41e3-a76e-9633532ba204" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter3/fucntionJoin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3/fucntionLower.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3/functionReplace.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3/functionSplit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3/functionStrip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3/functionTitle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3/functionTranslate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter4/dictionary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter4/dictionary2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter4/dictionary3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter4/dictionaryFormat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter4/functionClear.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/functionFind.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/functionFind.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3/functionTranslate.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/functionTranslate.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,9 +29,11 @@
     <SUITE FILE_PATH="coverage/corePython$characterSlice.coverage" NAME="characterSlice Coverage Results" MODIFIED="1554278403451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter3" />
     <SUITE FILE_PATH="coverage/corePython$functionTitle.coverage" NAME="functionTitle Coverage Results" MODIFIED="1554803216819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter3" />
     <SUITE FILE_PATH="coverage/corePython$sequenceSentence.coverage" NAME="sequenceSentence Coverage Results" MODIFIED="1554106430296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
+    <SUITE FILE_PATH="coverage/corePython$dictionary3.coverage" NAME="dictionary3 Coverage Results" MODIFIED="1554972113797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter4" />
     <SUITE FILE_PATH="coverage/corePython$functionFind.coverage" NAME="functionFind Coverage Results" MODIFIED="1554798950586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter3" />
     <SUITE FILE_PATH="coverage/corePython$variable.coverage" NAME="variable Coverage Results" MODIFIED="1553686207665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/corePython$characterSingleFormat.coverage" NAME="characterSingleFormat Coverage Results" MODIFIED="1554291954085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter3" />
+    <SUITE FILE_PATH="coverage/corePython$dictionaryFormat.coverage" NAME="dictionaryFormat Coverage Results" MODIFIED="1554973963526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter4" />
     <SUITE FILE_PATH="coverage/corePython$functionSplit.coverage" NAME="functionSplit Coverage Results" MODIFIED="1554862604611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter3" />
     <SUITE FILE_PATH="coverage/corePython$MembershipList.coverage" NAME="MembershipList Coverage Results" MODIFIED="1554115803853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
     <SUITE FILE_PATH="coverage/corePython$CharacterFormatSec.coverage" NAME="CharacterFormatSec Coverage Results" MODIFIED="1554378065178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter3" />
@@ -41,36 +41,39 @@
     <SUITE FILE_PATH="coverage/corePython$Membership.coverage" NAME="Membership Coverage Results" MODIFIED="1554108293019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
     <SUITE FILE_PATH="coverage/corePython$index.coverage" NAME="index Coverage Results" MODIFIED="1554185706877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
     <SUITE FILE_PATH="coverage/corePython$functionStrip.coverage" NAME="functionStrip Coverage Results" MODIFIED="1554864426414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter3" />
+    <SUITE FILE_PATH="coverage/corePython$dictionary2.coverage" NAME="dictionary2 Coverage Results" MODIFIED="1554968235040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter4" />
     <SUITE FILE_PATH="coverage/corePython$ListAndArray.coverage" NAME="ListAndArray Coverage Results" MODIFIED="1553761439057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
     <SUITE FILE_PATH="coverage/corePython$function.coverage" NAME="function Coverage Results" MODIFIED="1554116399733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
     <SUITE FILE_PATH="coverage/corePython$functionSort.coverage" NAME="functionSort Coverage Results" MODIFIED="1554276120289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
     <SUITE FILE_PATH="coverage/corePython$fucntionLower.coverage" NAME="fucntionLower Coverage Results" MODIFIED="1554802234252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter3" />
     <SUITE FILE_PATH="coverage/corePython$characterformat.coverage" NAME="characterformat Coverage Results" MODIFIED="1554281289102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter3" />
     <SUITE FILE_PATH="coverage/corePython$functionList.coverage" NAME="functionList Coverage Results" MODIFIED="1554174798277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
+    <SUITE FILE_PATH="coverage/corePython$functionClear.coverage" NAME="functionClear Coverage Results" MODIFIED="1554975466292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter4" />
     <SUITE FILE_PATH="coverage/corePython$functionReplace.coverage" NAME="functionReplace Coverage Results" MODIFIED="1554803471467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter3" />
     <SUITE FILE_PATH="coverage/corePython$indexSec.coverage" NAME="indexSec Coverage Results" MODIFIED="1553569688886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/corePython$characterWidthPrecision.coverage" NAME="characterWidthPrecision Coverage Results" MODIFIED="1554293113712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter3" />
+    <SUITE FILE_PATH="coverage/corePython$dictionary.coverage" NAME="dictionary Coverage Results" MODIFIED="1554882601346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter4" />
     <SUITE FILE_PATH="coverage/corePython$functionReverse.coverage" NAME="functionReverse Coverage Results" MODIFIED="1554189572726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="377471542">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.39" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="6" />
-          <entry key="py" value="39" />
+          <entry key="py" value="48" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
@@ -78,19 +81,19 @@
         <counts>
           <entry key="IPNB" value="6" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="39" />
+          <entry key="Python" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="py" value="10773" />
+          <entry key="py" value="12594" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="10773" />
+          <entry key="Python" value="12594" />
         </counts>
       </usages-collector>
     </session>
@@ -98,10 +101,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter3/functionTranslate.py">
+        <entry file="file://$PROJECT_DIR$/chapter4/functionClear.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="58" lean-forward="true" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+            <state relative-caret-position="459">
+              <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -159,6 +162,11 @@
         <option value="$PROJECT_DIR$/chapter3/functionSplit.py" />
         <option value="$PROJECT_DIR$/chapter3/functionStrip.py" />
         <option value="$PROJECT_DIR$/chapter3/functionTranslate.py" />
+        <option value="$PROJECT_DIR$/chapter4/dictionary.py" />
+        <option value="$PROJECT_DIR$/chapter4/dictionary2.py" />
+        <option value="$PROJECT_DIR$/chapter4/dictionary3.py" />
+        <option value="$PROJECT_DIR$/chapter4/dictionaryFormat.py" />
+        <option value="$PROJECT_DIR$/chapter4/functionClear.py" />
       </list>
     </option>
   </component>
@@ -193,6 +201,11 @@
               <item name="corePython" type="462c0819:PsiDirectoryNode" />
               <item name="chapter3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="corePython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="corePython" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter4" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -208,6 +221,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\pyHouse\corePython\chapter1" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pyHouse\corePython\chapter4" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -221,8 +237,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.functionTranslate">
-    <configuration name="functionReplace" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.functionClear">
+    <configuration name="dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="corePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,12 +246,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/functionReplace.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter4/dictionary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,7 +260,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="functionSplit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dictionary2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="corePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -252,12 +268,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/functionSplit.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter4/dictionary2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -266,7 +282,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="functionStrip" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dictionary3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="corePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,12 +290,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/functionStrip.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter4/dictionary3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,7 +304,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="functionTitle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dictionaryFormat" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="corePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,12 +312,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/functionTitle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter4/dictionaryFormat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -310,7 +326,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="functionTranslate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="functionClear" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="corePython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -318,12 +334,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/functionTranslate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter4/functionClear.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,19 +349,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.functionTitle" />
-      <item itemvalue="Python.functionReplace" />
-      <item itemvalue="Python.functionSplit" />
-      <item itemvalue="Python.functionStrip" />
-      <item itemvalue="Python.functionTranslate" />
+      <item itemvalue="Python.dictionary" />
+      <item itemvalue="Python.dictionary2" />
+      <item itemvalue="Python.dictionary3" />
+      <item itemvalue="Python.dictionaryFormat" />
+      <item itemvalue="Python.functionClear" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.functionTranslate" />
-        <item itemvalue="Python.functionStrip" />
-        <item itemvalue="Python.functionSplit" />
-        <item itemvalue="Python.functionReplace" />
-        <item itemvalue="Python.functionTitle" />
+        <item itemvalue="Python.functionClear" />
+        <item itemvalue="Python.dictionaryFormat" />
+        <item itemvalue="Python.dictionary3" />
+        <item itemvalue="Python.dictionary2" />
+        <item itemvalue="Python.dictionary" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +382,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15182403" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15396996" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -380,7 +396,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32925472" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -567,13 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/characterformat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter3/characterSingleFormat.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -667,8 +676,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter3/functionTranslate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="58" lean-forward="true" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        <state relative-caret-position="150">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/dictionary3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter3/characterformat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/dictionary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/dictionary2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/dictionaryFormat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter4/functionClear.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
         </state>
       </provider>
     </entry>
